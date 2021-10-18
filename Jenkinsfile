@@ -30,7 +30,7 @@ pipeline {
             steps {
                 script {
                     withDockerRegistry(credentialsId: 'dockerhub',  url: '') {
-                bat 'docker push maheshreddy123/pyth:v1'
+                bat 'docker push maheshreddy123/n:v1'
                
                 }
               }
