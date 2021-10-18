@@ -24,17 +24,18 @@ pipeline {
             }
         }
         
-          stage('Deploy Docker Image') {
+          
+        
+        stage('Deploy Docker Image') {
             steps {
                 script {
                     withDockerRegistry(credentialsId: 'dockerhub',  url: '') {
-                bat 'docker push maheshreddy123/n:v1'
+                bat 'docker push maheshreddy123/pyth:v1'
                
                 }
               }
             }
           }
-        
         
     }
 }
