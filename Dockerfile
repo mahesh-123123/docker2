@@ -1,2 +1,2 @@
 FROM nginx
-RUN echo "wlcome to mahesh" > /usr/share/nginx/html/index.html
+RUN echo "<h1>wlcome to mahesh</h1>" > /usr/share/nginx/html/index.html
