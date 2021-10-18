@@ -1,6 +1,5 @@
 FROM nginx
-RUN echo "<h1>wlcome to mahesh</h1>" > /usr/share/nginx/html/index.html
-<!DOCTYPE html>
+RUN echo "<h1>wlcome to mahesh</h1>" 
 <html>
 <body>
 
@@ -11,3 +10,4 @@ RUN echo "<h1>wlcome to mahesh</h1>" > /usr/share/nginx/html/index.html
 
 </body>
 </html>
+> /usr/share/nginx/html/index.html
