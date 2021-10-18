@@ -24,7 +24,7 @@ pipeline {
             }
         }
         
-          /*stage('Deploy Docker Image') {
+          stage('Deploy Docker Image') {
             steps {
                 script {
                     withDockerRegistry(credentialsId: 'dockerhub',  url: '') {
@@ -33,7 +33,7 @@ pipeline {
                 }
               }
             }
-          }*/
+          }
         
         
     }
