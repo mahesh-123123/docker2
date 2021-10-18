@@ -18,7 +18,7 @@ pipeline {
             steps {
                 script {
                   bat 'docker build -t maheshreddy123/ng:v1 .'
-                  bat 'docker run -itd -p 3030:80 maheshreddy123/ng:v1'  
+                  bat 'docker run -itd -p 4040:80 maheshreddy123/ng:v1'  
                  
                 }
             }
